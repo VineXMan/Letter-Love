@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassetta delle lettere</title>
+    <link rel="stylesheet" href="cassetta-chiusa.css" id="closed-box-css">
+    <link rel="stylesheet" href="cassetta-aperta.css" id="open-on-click" disabled>
+    <audio autoplay loop volume="0.5">
+        <source src="music/All To Well.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+<div class="sparkles"></div>
+<div class="container"></div>
+<div class="mailbox">
+    <img src="img\letter.png" alt="Love letter" class="loveletter" id="love-letter-image" onclick="mostraRiquadro()">
+    <img src="img\grass.png" alt="grass" class="grass" id="grass">
+    <div class="square" onclick="apriCassetta()"></div>
+    <div class="circle"></div>
+    <div id="pulsingheart" onclick="chiudiCassetta()"></div>
+    <div class="thin-rectangle"></div>
+    <div class="thin-rectangle-porta"></div>
+</div>
+<div class="rectangle"></div>
+<div id="valentine-box" class="valentine-box hidden" onclick="chiudiRiquadro()">
+    <div class="content">
+        To Amanda Madewi Kirana Negara, <br><br>
+        Dengan setiap hembusan angin yang melintasi bumi ini, cinta kita terus berkembang dan mengukir jejak-jejak indah di hati kita masing-masing. Hari Valentine ini adalah momen yang sempurna untuk mengungkapkan betapa besar dan dalamnya rasa cinta yang kusimpan untukmu.
+
+        Sejak hari pertama kita bertemu, dunia ini menjadi lebih berwarna dan bersemangat. Setiap senyummu menjadi sinar terang di tengah kegelapan, dan setiap detik yang kita lewati bersama menjadi kenangan yang tak terlupakan. Kamu adalah sumber kebahagiaan dalam hidupku, dan aku bersyukur setiap hari karena memiliki kesempatan untuk mencintaimu.
+        <br>
+        <h4></h4>
+        Melalui setiap perjalanan yang kita lalui bersama, kita telah melewati berbagai rintangan dan cobaan. Namun, cinta kita seperti sebuah benteng yang kokoh, tidak pernah goyah di hadapan badai. Kamu adalah mitra hidupku, yang selalu bersedia berjalan beriringan dengan langkahku, menopangku saat aku lemah, dan menginspirasi aku untuk menjadi yang terbaik.
+        <br>
+        <h4></h4>
+        Tak pernah terlintas di benakku bahwa aku bisa merasakan cinta sebesar ini sebelum bertemu denganmu. Kamu telah mengubah segalanya dengan kehadiranmu yang penuh kehangatan dan kasih sayang. Kehadiranmu membuat hidupku lebih berarti, dan setiap detik yang kita habiskan bersama adalah anugerah yang tak ternilai harganya.
+        <br>
+        <h4></h4>
+        Hari Valentine ini, aku ingin mengucapkan terima kasih atas segala cinta, dukungan, dan pengertian yang telah kamu berikan kepadaku. Kamu adalah sosok yang luar biasa, yang selalu memberikan kekuatan dan inspirasi dalam segala hal yang kita lakukan bersama. Bersamamu, aku merasa seperti aku bisa menghadapi segala tantangan dunia ini, karena aku tahu kita akan selalu saling mendukung dan melengkapi satu sama lain.
+        <br>
+        <h4></h4>
+        Aku berjanji untuk selalu ada untukmu, seperti yang kamu lakukan untukku. Aku berjanji untuk selalu mencintaimu dengan segenap hatiku, dan menjaga api cinta kita tetap menyala selamanya. Hari Valentine ini adalah pengingat akan betapa beruntungnya aku memiliki kamu di hidupku, dan aku tidak akan pernah berhenti bersyukur karena kehadiranmu yang begitu istimewa.
+        <br>
+        Terima kasih telah menjadi bagian dari hidupku, dan terima kasih untuk segala cinta yang tak pernah lelah kamu berikan. Aku mencintaimu dengan segala yang aku miliki, hari ini dan selamanya.
+        <h4></h4>
+        Selamat Hari Valentine, Ma Chérie. Aku mencintaimu lebih dari yang bisa aku ungkapkan dengan kata-kata.
+        <br><br>
+        From V.
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
